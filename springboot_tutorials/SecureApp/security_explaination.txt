@@ -1,0 +1,12 @@
+we dont want system defined username and pwd, then we need to crete a confuration.
+
+1. we need to create a class to provide configuration
+
+2. create a class which extends "WebSecurityConfigurerAdapter" (which has all the configuration feature)
+3. need to add : @Configuration, @EnableWebSecurity annotations
+4. we need to override : UserDetailService
+5. we need the object of 'UserDetailsService' in our application, So use @Bean
+6. create a list of UserDetail(inbuilt class in spring)
+
+7. Using mysql : write a method which will return the object if AuthenticationProvider
+8. There is an implementation for 'AuthenticationProvider' which provides

@@ -1,0 +1,3 @@
+step 1 :   create a main program  "BANK"  i.e, main_bank  with basic transactions
+step 2 :   software teams like  'easy pay' , 'book my show' will tag with various banks and  USES " MAIN_BANK"  class
+step 3 :   the programmers who write software for 'easy pay' , 'book my show' etc..  will write a program  "APPS_BY_3rd_PARTY"  indirectly using "  MAIN_BANK " which is protected class
